@@ -1,0 +1,130 @@
+{
+  "stats": {
+    "suites": 4,
+    "tests": 8,
+    "passes": 8,
+    "pending": 0,
+    "failures": 0,
+    "start": "2017-11-19T14:40:18.600Z",
+    "end": "2017-11-19T14:40:18.919Z",
+    "duration": 319
+  },
+  "tests": [
+    {
+      "title": "returns the existing state if there action's type doesn't match a type in the reducer",
+      "fullTitle": "managePets reducer returns the existing state if there action's type doesn't match a type in the reducer",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "adds the pet when type is ADD_PET and the action has a pet property with the pet's name, species and id",
+      "fullTitle": "managePets reducer adds the pet when type is ADD_PET and the action has a pet property with the pet's name, species and id",
+      "duration": 2,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "removes the pet when action type is REMOVE_PET and the action has a property of id for the pet to be removed",
+      "fullTitle": "managePets reducer removes the pet when action type is REMOVE_PET and the action has a property of id for the pet to be removed",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "adheres to the rules of being a pure function, by not changing the original state, and instead returning a new object",
+      "fullTitle": "managePets reducer adheres to the rules of being a pure function, by not changing the original state, and instead returning a new object",
+      "duration": 2,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "has a default argument for state",
+      "fullTitle": "managePets reducer has a default argument for state",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "declares the state variable in the global scope and exports the state, and calls the reducer",
+      "fullTitle": "dispatch declares the state variable in the global scope and exports the state, and calls the reducer",
+      "duration": 12,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "displays the state on the html",
+      "fullTitle": "render displays the state on the html",
+      "duration": 6,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "calls the render function which displays the updated html",
+      "fullTitle": "dispatch with render calls the render function which displays the updated html",
+      "duration": 5,
+      "currentRetry": 0,
+      "err": {}
+    }
+  ],
+  "pending": [],
+  "failures": [],
+  "passes": [
+    {
+      "title": "returns the existing state if there action's type doesn't match a type in the reducer",
+      "fullTitle": "managePets reducer returns the existing state if there action's type doesn't match a type in the reducer",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "adds the pet when type is ADD_PET and the action has a pet property with the pet's name, species and id",
+      "fullTitle": "managePets reducer adds the pet when type is ADD_PET and the action has a pet property with the pet's name, species and id",
+      "duration": 2,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "removes the pet when action type is REMOVE_PET and the action has a property of id for the pet to be removed",
+      "fullTitle": "managePets reducer removes the pet when action type is REMOVE_PET and the action has a property of id for the pet to be removed",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "adheres to the rules of being a pure function, by not changing the original state, and instead returning a new object",
+      "fullTitle": "managePets reducer adheres to the rules of being a pure function, by not changing the original state, and instead returning a new object",
+      "duration": 2,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "has a default argument for state",
+      "fullTitle": "managePets reducer has a default argument for state",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "declares the state variable in the global scope and exports the state, and calls the reducer",
+      "fullTitle": "dispatch declares the state variable in the global scope and exports the state, and calls the reducer",
+      "duration": 12,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "displays the state on the html",
+      "fullTitle": "render displays the state on the html",
+      "duration": 6,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "calls the render function which displays the updated html",
+      "fullTitle": "dispatch with render calls the render function which displays the updated html",
+      "duration": 5,
+      "currentRetry": 0,
+      "err": {}
+    }
+  ]
+}
